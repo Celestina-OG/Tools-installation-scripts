@@ -26,3 +26,6 @@ if [ -x "$(command -v docker)" ]; then
 else
     echo "Failed to install Docker. Please check the installation manually."
 fi
+
+# Reload the shell configuration to apply changes
+source ~/.bashrc
